@@ -1,5 +1,17 @@
 # u256-literal
 
+## Usage
+
+```
+use primitive_types::U256;
+use u256_literal::u256;
+
+const Q96: U256 = u256!(0x1000000000000000000000000);
+
+let x = u256!(0x1234ff);
+let y = u256!(987654);
+```
+
 ## License
 
 All crates licensed under either of

@@ -1,5 +1,9 @@
 # u256-literal
 
+## Description
+
+This crate helps you to declare a constant `U256` in an easy way. No need to wrap the integer literal around double quotes.
+
 ## Usage
 
 ```

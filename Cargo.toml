@@ -7,7 +7,7 @@ license = "MIT OR Apache-2.0"
 description = "Procedural macro for converting u256 literals to U256 at compile time."
 documentation = "https://docs.rs/u256-literal"
 repository = "https://github.com/guanqun/u256-literal"
-keywords = ["u256", "proc-macro", "literals"]
+keywords = ["u256", "proc-macro", "literals", "ethereum"]
 
 [lib]
 proc-macro = true

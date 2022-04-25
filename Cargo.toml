@@ -1,8 +1,8 @@
 [package]
 name = "u256-literal"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["Guanqun Lu <guanqunlu@outlook.com>"]
-edition = "2018"
+edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Procedural macro for converting u256 literals to U256 at compile time."
 documentation = "https://docs.rs/u256-literal"
@@ -14,4 +14,4 @@ proc-macro = true
 
 [dependencies]
 syn = "1.0"
-primitive-types = "0.9"
+primitive-types = "0.11"

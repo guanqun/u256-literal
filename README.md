@@ -12,8 +12,12 @@ use u256_literal::u256;
 
 const Q96: U256 = u256!(0x1000000000000000000000000);
 
+// support hex style integer
 let x = u256!(0x1234ff);
+// support normal style
 let y = u256!(987654);
+// support float style number
+let z = u256!(1.23e18);
 ```
 
 ## License

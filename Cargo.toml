@@ -1,6 +1,6 @@
 [package]
 name = "u256-literal"
-version = "1.2.0"
+version = "1.2.1"
 authors = ["Guanqun Lu <guanqunlu@outlook.com>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -14,4 +14,4 @@ proc-macro = true
 
 [dependencies]
 syn = "1.0"
-primitive-types = { version = "0.11", default-features = false }
+primitive-types = { version = "0.12", default-features = false }
